@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
 {
     char arr[30],temp,i,l;
@@ -13,11 +12,8 @@ int main()
                 temp=arr[i];
                 arr[i]=arr[i+1];
                 arr[i+1]=temp;
-
             }
-
     }
-
     printf("%s",arr);
     return 0;
 }
