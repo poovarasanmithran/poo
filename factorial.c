@@ -4,8 +4,8 @@ void main()
 {
     char j=1,i,n;
     clrscr();
-    scanf("%d",&n\n);
+    scanf("%d",&n);
     for(i=1;i<=n;i++) j *= i;
-    printf("%d",j);
+    printf("%d\n",j);
     return 0;
 }
